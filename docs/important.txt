@@ -1,0 +1,4 @@
+g++ -c main.cpp -I/home/fernando/SFML-2.5.1/include
+&&
+g++ main.o minecrap.o -o sfml-app -L/home/fernando/SFML-2.5.1/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+&& ./sfml-app
